@@ -720,6 +720,7 @@ export default function App() {
 
   return (
     <div style={{
+      width: "100%",
       maxWidth: "650px",
       margin: "40px auto",
       padding: "30px",
