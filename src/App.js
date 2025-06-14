@@ -722,6 +722,7 @@ export default function App() {
     <div style={{
       width: "100%",
       maxWidth: "650px",
+      boxSizing: "border-box",
       margin: "40px auto",
       padding: "30px",
       backgroundColor: darkMode ? "#1e1e1e" : "#f9f9f9",
