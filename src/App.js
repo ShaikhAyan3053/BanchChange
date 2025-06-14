@@ -900,7 +900,7 @@ export default function App() {
             fontWeight: "bold"
           }}
         >
-          💬 Chat with Avan on WhatsApp
+          💬 Chat with Avan on WhatsApp(for queries)
         </a>
       )}
 
