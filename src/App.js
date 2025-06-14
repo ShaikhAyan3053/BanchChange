@@ -884,7 +884,21 @@ export default function App() {
           {result}
         </div>
       )}
-
+      <a
+        href="https://wa.me/6388359596?text=Hi%20Avan%2C%20I%20have%20a%20question%20regarding%20branch%20upgradation"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          marginTop: "30px",
+          fontSize: "1rem",
+          textDecoration: "none",
+          color: "#25D366",
+          fontWeight: "bold"
+        }}
+      >
+        💬 Chat with Avan on WhatsApp
+      </a>
       <p style={{ marginTop: "40px", fontSize: "0.85rem", color: darkMode ? "#aaa" : "#666", textAlign: "center" }}>
         💻⚙️ Compiled with logic and ☕ caffeine by <strong>Avan Usmani</strong>
       </p>
