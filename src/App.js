@@ -662,6 +662,14 @@ export default function App() {
 
   const fetchCGPA = () => {
     const fn = facultyNumber.trim().toUpperCase();
+    // Log to Google Sheet
+    fetch("https://script.google.com/macros/s/AKfycbyf79yTFdWNL5lnzKBC7cLTtPBj74sVEU4nAks4uvCMBam09auADzszxU7pJmSxWEP9/exec", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ facultyNumber: fn }),
+    });
     const branch = getCurrentBranch(fn);
     setCurrentBranch(branch);
     const gpa = STUDENT_DATA[fn];
