@@ -1,4 +1,11 @@
 import React, { useState } from "react";
+(function() {
+  var gc = document.createElement('script');
+  gc.setAttribute('data-goatcounter', 'https://letsseewhovisited.goatcounter.com/count');
+  gc.async = true;
+  gc.src = '//gc.zgo.at/count.js';
+  document.head.appendChild(gc);
+})();
 
 const STUDENT_DATA = {
   "24AIBEA109": 9.709,
